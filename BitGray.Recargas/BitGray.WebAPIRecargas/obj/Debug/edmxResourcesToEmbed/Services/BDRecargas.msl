@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDRecargasModelStoreContainer" CdmEntityContainer="BDRecargasEntities">
+    <EntitySetMapping Name="Consumoes">
+      <EntityTypeMapping TypeName="BDRecargasModel.Consumo">
+        <MappingFragment StoreEntitySet="Consumo">
+          <ScalarProperty Name="fechaConsumo" ColumnName="fechaConsumo" />
+          <ScalarProperty Name="consumo1" ColumnName="consumo" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="idParametro" ColumnName="idParametro" />
+          <ScalarProperty Name="idConsumo" ColumnName="idConsumo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametros">
+      <EntityTypeMapping TypeName="BDRecargasModel.Parametro">
+        <MappingFragment StoreEntitySet="Parametros">
+          <ScalarProperty Name="esActual" ColumnName="esActual" />
+          <ScalarProperty Name="fechaParametro" ColumnName="fechaParametro" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="idParametro" ColumnName="idParametro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recargas">
+      <EntityTypeMapping TypeName="BDRecargasModel.Recarga">
+        <MappingFragment StoreEntitySet="Recargas">
+          <ScalarProperty Name="fechaRecarga" ColumnName="fechaRecarga" />
+          <ScalarProperty Name="fechaVigencia" ColumnName="fechaVigencia" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="idParametros" ColumnName="idParametros" />
+          <ScalarProperty Name="idRecargas" ColumnName="idRecargas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Saldos">
+      <EntityTypeMapping TypeName="BDRecargasModel.Saldo">
+        <MappingFragment StoreEntitySet="Saldos">
+          <ScalarProperty Name="saldoSegundos" ColumnName="saldoSegundos" />
+          <ScalarProperty Name="saldoPesos" ColumnName="saldoPesos" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="idSaldo" ColumnName="idSaldo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

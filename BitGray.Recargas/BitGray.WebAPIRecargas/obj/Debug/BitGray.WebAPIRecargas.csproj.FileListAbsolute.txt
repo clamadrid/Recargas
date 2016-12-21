@@ -1,0 +1,232 @@
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\ApplicationInsights.config
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\csc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\System.Collections.Immutable.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\vbc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\VBCSCompiler.exe
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\VBCSCompiler.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Antlr3.Runtime.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.SqlServer.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.Web.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.WindowsServer.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.ApplicationInsights.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Google.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Web.Infrastructure.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Newtonsoft.Json.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Owin.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Net.Http.Formatting.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Helpers.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.Owin.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.WebHost.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Mvc.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Optimization.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Razor.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Deployment.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Razor.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\WebGrease.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.Web.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.WindowsServer.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.ApplicationInsights.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Newtonsoft.Json.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Net.Http.Formatting.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Helpers.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.WebHost.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Mvc.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Optimization.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Razor.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Deployment.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Razor.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Antlr3.Runtime.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.SqlServer.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Google.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.Owin.xml
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Net.Http.Formatting.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Helpers.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Http.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Http.WebHost.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Mvc.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Optimization.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Razor.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.WebPages.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\EntityFramework.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Http.Owin.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\obj\Debug\BitGray.WebAPIRecargas.dll
+c:\users\usuario\documents\visual studio 2015\Projects\BitGray.Recargas\BitGray.WebAPIRecargas\obj\Debug\BitGray.WebAPIRecargas.pdb
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\ApplicationInsights.config
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\csc.exe
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\System.Collections.Immutable.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\System.Reflection.Metadata.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\vbc.exe
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\VBCSCompiler.exe
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\roslyn\VBCSCompiler.exe.config
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\BitGray.WebAPIRecargas.dll.config
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\BitGray.WebAPIRecargas.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\BitGray.WebAPIRecargas.pdb
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Antlr3.Runtime.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\BitGray.Log.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.SqlServer.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.Agent.Intercept.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.DependencyCollector.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.Web.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.WindowsServer.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.ApplicationInsights.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Core.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Cookies.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Facebook.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Google.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.OAuth.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Twitter.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Web.Infrastructure.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Newtonsoft.Json.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Owin.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Net.Http.Formatting.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Helpers.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.Owin.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.WebHost.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Mvc.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Optimization.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Razor.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Deployment.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Razor.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\WebGrease.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.Unity.Interception.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.ServiceLocation.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.Unity.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\BitGray.Log.pdb
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.DependencyCollector.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.Web.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AI.WindowsServer.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.ApplicationInsights.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Newtonsoft.Json.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Net.Http.Formatting.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Helpers.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.WebHost.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Mvc.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Optimization.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Razor.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Deployment.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.WebPages.Razor.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Antlr3.Runtime.pdb
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\EntityFramework.SqlServer.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Core.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Facebook.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Cookies.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.OAuth.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Google.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.Twitter.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\System.Web.Http.Owin.xml
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.Unity.Interception.pdb
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\Microsoft.Practices.Unity.pdb
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Net.Http.Formatting.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Helpers.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Http.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Http.WebHost.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Mvc.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Optimization.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Razor.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.WebPages.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\EntityFramework.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\EntityFramework.SqlServer.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\bin\es\System.Web.Http.Owin.resources.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\obj\Debug\BitGray.WebAPIRecargas.csprojResolveAssemblyReference.cache
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\obj\Debug\BitGray.WebAPIRecargas.dll
+D:\BitGray.Recargas\BitGray.WebAPIRecargas\obj\Debug\BitGray.WebAPIRecargas.pdb

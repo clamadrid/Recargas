@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDRecargasModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BDRecargasEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Consumoes" EntityType="BDRecargasModel.Consumo" />
+    <EntitySet Name="Parametros" EntityType="BDRecargasModel.Parametro" />
+    <EntitySet Name="Recargas" EntityType="BDRecargasModel.Recarga" />
+    <EntitySet Name="Saldos" EntityType="BDRecargasModel.Saldo" />
+  </EntityContainer>
+  <EntityType Name="Consumo">
+    <Key>
+      <PropertyRef Name="idConsumo" />
+    </Key>
+    <Property Name="idConsumo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idParametro" Type="Int64" Nullable="false" />
+    <Property Name="celular" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="consumo1" Type="Int32" Nullable="false" />
+    <Property Name="fechaConsumo" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Parametro">
+    <Key>
+      <PropertyRef Name="idParametro" />
+    </Key>
+    <Property Name="idParametro" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="valor" Type="Int32" Nullable="false" />
+    <Property Name="fechaParametro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="esActual" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Recarga">
+    <Key>
+      <PropertyRef Name="idRecargas" />
+    </Key>
+    <Property Name="idRecargas" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idParametros" Type="Int64" Nullable="false" />
+    <Property Name="celular" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="valor" Type="Int32" Nullable="false" />
+    <Property Name="fechaVigencia" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fechaRecarga" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Saldo">
+    <Key>
+      <PropertyRef Name="idSaldo" />
+    </Key>
+    <Property Name="idSaldo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="celular" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="saldoPesos" Type="Int32" Nullable="false" />
+    <Property Name="saldoSegundos" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

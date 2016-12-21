@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterRecargas.master.cs" Inherits="BitGray.Vistas.MasterRecargas" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+          <style>
+        .level1
+        {
+            color: black;
+            background-color: beige;           
+            font-size:x-large;
+            font-weight: bold;
+        }
+
+        .level2
+        {
+            color: black;
+            font-family: Arial;
+            font-size: medium;
+            background-color: beige;
+        }
+
+        .level3
+        {
+            color: black;
+            background-color: beige;
+            font-family: Arial;
+            font-size: small;
+        }
+
+        .hoverstyle
+        {
+            font-weight: bold;
+        }
+       
+        .sublevel1
+        {
+            background-color: black;
+            color:beige;
+          
+        } 
+
+  </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="width:100%">
+            <tr>
+                <td>
+         <asp:ContentPlaceHolder ID="head" runat="server">
+               <asp:Menu ID="Menu1" runat="server" Font-Size="Small" Orientation="Horizontal"   staticsubmenuindent="0"   Font-names="Arial, Arial"
+  Width="70%">
+            <Items>
+                <asp:MenuItem Text="Parmetrización" >
+                    <asp:MenuItem Text="Consultar valor actual" NavigateUrl="~/Parametros.aspx"> </asp:MenuItem>
+                    <asp:MenuItem Text="Crear nuevo costo" NavigateUrl="~/ParametroNuevo.aspx"> </asp:MenuItem>
+                </asp:MenuItem>
+                 <asp:MenuItem Text="Recarga" NavigateUrl="~/Recargas.aspx"></asp:MenuItem>
+                 <asp:MenuItem Text="Consulta Saldo">
+                      <asp:MenuItem Text="Saldo Actual" NavigateUrl="~/SaldoActual.aspx"> </asp:MenuItem>
+                      <asp:MenuItem Text="Historial de Recargas" NavigateUrl="~/HistorialRecargas.aspx"> </asp:MenuItem>
+                 </asp:MenuItem>
+                <asp:MenuItem Text="Consumo">
+                     <asp:MenuItem Text="Crear Consumos" NavigateUrl="~/Consumo.aspx"> </asp:MenuItem>
+                     <asp:MenuItem Text="Historial Consumos" NavigateUrl="~/HistorialConsumos.aspx"> </asp:MenuItem>
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                <td >
+                    <br />
+                     <br />
+                     <br />
+                     <br />
+                     <asp:ContentPlaceHolder ID="Body" runat="server" >
+                     </asp:ContentPlaceHolder>   
+                </td>
+                </tr>
+     </table>
+    </div>
+    </form>
+</body>
+   
+</html>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDRecargasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Consumo">
+    <Key>
+      <PropertyRef Name="idConsumo" />
+    </Key>
+    <Property Name="idConsumo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idParametro" Type="bigint" Nullable="false" />
+    <Property Name="celular" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="consumo" Type="int" Nullable="false" />
+    <Property Name="fechaConsumo" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Parametros">
+    <Key>
+      <PropertyRef Name="idParametro" />
+    </Key>
+    <Property Name="idParametro" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="valor" Type="int" Nullable="false" />
+    <Property Name="fechaParametro" Type="datetime" Nullable="false" />
+    <Property Name="esActual" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Recargas">
+    <Key>
+      <PropertyRef Name="idRecargas" />
+    </Key>
+    <Property Name="idRecargas" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idParametros" Type="bigint" Nullable="false" />
+    <Property Name="celular" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="valor" Type="int" Nullable="false" />
+    <Property Name="fechaVigencia" Type="datetime" Nullable="false" />
+    <Property Name="fechaRecarga" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Saldos">
+    <Key>
+      <PropertyRef Name="idSaldo" />
+    </Key>
+    <Property Name="idSaldo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="celular" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="saldoPesos" Type="int" Nullable="false" />
+    <Property Name="saldoSegundos" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BDRecargasModelStoreContainer">
+    <EntitySet Name="Consumo" EntityType="Self.Consumo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parametros" EntityType="Self.Parametros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Recargas" EntityType="Self.Recargas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Saldos" EntityType="Self.Saldos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

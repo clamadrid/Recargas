@@ -1,0 +1,4 @@
+D:\BitGray.Recargas\BitGray.Entidades\bin\Debug\BitGray.Entidades.dll
+D:\BitGray.Recargas\BitGray.Entidades\bin\Debug\BitGray.Entidades.pdb
+D:\BitGray.Recargas\BitGray.Entidades\obj\Debug\BitGray.Entidades.dll
+D:\BitGray.Recargas\BitGray.Entidades\obj\Debug\BitGray.Entidades.pdb

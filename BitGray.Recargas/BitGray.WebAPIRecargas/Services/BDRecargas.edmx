@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="BDRecargasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Consumo">
+          <Key>
+            <PropertyRef Name="idConsumo" />
+          </Key>
+          <Property Name="idConsumo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idParametro" Type="bigint" Nullable="false" />
+          <Property Name="celular" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="consumo" Type="int" Nullable="false" />
+          <Property Name="fechaConsumo" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Parametros">
+          <Key>
+            <PropertyRef Name="idParametro" />
+          </Key>
+          <Property Name="idParametro" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="valor" Type="int" Nullable="false" />
+          <Property Name="fechaParametro" Type="datetime" Nullable="false" />
+          <Property Name="esActual" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Recargas">
+          <Key>
+            <PropertyRef Name="idRecargas" />
+          </Key>
+          <Property Name="idRecargas" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idParametros" Type="bigint" Nullable="false" />
+          <Property Name="celular" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="valor" Type="int" Nullable="false" />
+          <Property Name="fechaVigencia" Type="datetime" Nullable="false" />
+          <Property Name="fechaRecarga" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Saldos">
+          <Key>
+            <PropertyRef Name="idSaldo" />
+          </Key>
+          <Property Name="idSaldo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="celular" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="saldoPesos" Type="int" Nullable="false" />
+          <Property Name="saldoSegundos" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="BDRecargasModelStoreContainer">
+          <EntitySet Name="Consumo" EntityType="Self.Consumo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Parametros" EntityType="Self.Parametros" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Recargas" EntityType="Self.Recargas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Saldos" EntityType="Self.Saldos" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BDRecargasModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="BDRecargasEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Consumoes" EntityType="BDRecargasModel.Consumo" />
+          <EntitySet Name="Parametros" EntityType="BDRecargasModel.Parametro" />
+          <EntitySet Name="Recargas" EntityType="BDRecargasModel.Recarga" />
+          <EntitySet Name="Saldos" EntityType="BDRecargasModel.Saldo" />
+        </EntityContainer>
+        <EntityType Name="Consumo">
+          <Key>
+            <PropertyRef Name="idConsumo" />
+          </Key>
+          <Property Name="idConsumo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idParametro" Type="Int64" Nullable="false" />
+          <Property Name="celular" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="consumo1" Type="Int32" Nullable="false" />
+          <Property Name="fechaConsumo" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="Parametro">
+          <Key>
+            <PropertyRef Name="idParametro" />
+          </Key>
+          <Property Name="idParametro" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="valor" Type="Int32" Nullable="false" />
+          <Property Name="fechaParametro" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="esActual" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Recarga">
+          <Key>
+            <PropertyRef Name="idRecargas" />
+          </Key>
+          <Property Name="idRecargas" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idParametros" Type="Int64" Nullable="false" />
+          <Property Name="celular" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="valor" Type="Int32" Nullable="false" />
+          <Property Name="fechaVigencia" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="fechaRecarga" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="Saldo">
+          <Key>
+            <PropertyRef Name="idSaldo" />
+          </Key>
+          <Property Name="idSaldo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="celular" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="saldoPesos" Type="Int32" Nullable="false" />
+          <Property Name="saldoSegundos" Type="Int32" Nullable="false" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BDRecargasModelStoreContainer" CdmEntityContainer="BDRecargasEntities">
+          <EntitySetMapping Name="Consumoes">
+            <EntityTypeMapping TypeName="BDRecargasModel.Consumo">
+              <MappingFragment StoreEntitySet="Consumo">
+                <ScalarProperty Name="fechaConsumo" ColumnName="fechaConsumo" />
+                <ScalarProperty Name="consumo1" ColumnName="consumo" />
+                <ScalarProperty Name="celular" ColumnName="celular" />
+                <ScalarProperty Name="idParametro" ColumnName="idParametro" />
+                <ScalarProperty Name="idConsumo" ColumnName="idConsumo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Parametros">
+            <EntityTypeMapping TypeName="BDRecargasModel.Parametro">
+              <MappingFragment StoreEntitySet="Parametros">
+                <ScalarProperty Name="esActual" ColumnName="esActual" />
+                <ScalarProperty Name="fechaParametro" ColumnName="fechaParametro" />
+                <ScalarProperty Name="valor" ColumnName="valor" />
+                <ScalarProperty Name="idParametro" ColumnName="idParametro" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Recargas">
+            <EntityTypeMapping TypeName="BDRecargasModel.Recarga">
+              <MappingFragment StoreEntitySet="Recargas">
+                <ScalarProperty Name="fechaRecarga" ColumnName="fechaRecarga" />
+                <ScalarProperty Name="fechaVigencia" ColumnName="fechaVigencia" />
+                <ScalarProperty Name="valor" ColumnName="valor" />
+                <ScalarProperty Name="celular" ColumnName="celular" />
+                <ScalarProperty Name="idParametros" ColumnName="idParametros" />
+                <ScalarProperty Name="idRecargas" ColumnName="idRecargas" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Saldos">
+            <EntityTypeMapping TypeName="BDRecargasModel.Saldo">
+              <MappingFragment StoreEntitySet="Saldos">
+                <ScalarProperty Name="saldoSegundos" ColumnName="saldoSegundos" />
+                <ScalarProperty Name="saldoPesos" ColumnName="saldoPesos" />
+                <ScalarProperty Name="celular" ColumnName="celular" />
+                <ScalarProperty Name="idSaldo" ColumnName="idSaldo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

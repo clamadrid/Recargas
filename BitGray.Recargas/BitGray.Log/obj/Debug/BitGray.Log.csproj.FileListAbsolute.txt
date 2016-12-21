@@ -1,0 +1,12 @@
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\BitGray.Log.dll
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\BitGray.Log.pdb
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.Unity.dll
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\BitGray.Recargas\BitGray.Log\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+D:\BitGray.Recargas\BitGray.Log\obj\Debug\BitGray.Log.dll
+D:\BitGray.Recargas\BitGray.Log\obj\Debug\BitGray.Log.pdb
