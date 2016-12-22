@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Body" runat="server">
     <asp:Panel runat="server" GroupingText="Saldo Actual">
-    <table>
+    <table style="width:40%; margin-left:10px">
         <tr>
             <td>
                 <asp:label runat="server" Text="Celular: " Font-Size="Small" ></asp:label>
@@ -14,6 +14,7 @@
 
         <tr>
             <td>
+                <br />
                 <asp:label runat="server" Text="Saldo Disponible en dinero" Font-Size="Small" ></asp:label>
             </td>
              <td>
@@ -31,6 +32,7 @@
         </tr>
         <tr>
             <td>
+                <br />
             <asp:Button runat="server" Text="Consultar" ID="btnConsultar" OnClick="btnConsultar_Click" />
             </td>
         </tr>

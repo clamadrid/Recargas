@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Body" runat="server">
     
         <asp:Panel runat="server" GroupingText="Crear Recargas" Font-Size="Small">
-        <table>
+        <table style="width:30%; margin-left:10px">
          
             <tr>
                 <td>
@@ -23,6 +23,7 @@
             </tr>
             <tr>
                 <td>
+                    <br />
                     <asp:Button ID="btnSave" Text="Guardar" runat="server" OnClick="btnSave_Click" />
                 </td>
             </tr>           

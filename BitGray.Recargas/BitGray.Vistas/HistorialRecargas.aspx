@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Body" runat="server">
     
-    <table>
+    <table >
          <tr>
               <td>
                   <asp:Label runat="server" Text="Celular"></asp:Label>
@@ -16,14 +16,13 @@
           </tr>
         
     </table> 
-     <table>
+     <table style="width:100%; margin-left:10px">
          
         <tr>
             <td>
+              
                 <br />
-                <br />
-                <br />
-                <asp:gridview runat="server" ID="grdRecargas">
+                <asp:gridview runat="server" ID="grdRecargas" Width="100%">
                    
                 </asp:gridview>
                 

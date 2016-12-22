@@ -27,8 +27,12 @@ namespace BitGray.Vistas
             if (response.IsSuccessStatusCode)
             {
                 var parameter = response.Content.ReadAsAsync<Entidades.Parametros>().Result;
-                Entidades.ConfiguracionGlobal.costoXSegundo = parameter.valor;
-                Entidades.ConfiguracionGlobal.idParametro = parameter.idParametro;
+
+                if (parameter != null)
+                {
+                    Entidades.ConfiguracionGlobal.costoXSegundo = parameter.valor;
+                    Entidades.ConfiguracionGlobal.idParametro = parameter.idParametro;
+                }
             }
         }
     }

@@ -1,0 +1,37 @@
+﻿body {
+}
+
+  .level1
+        {
+            color: black;
+            background-color: beige;           
+            font-size:medium;
+           
+        }
+
+        .level2
+        {
+            color: black;           
+            font-size: small;
+            background-color: beige;
+        }
+
+        .level3
+        {
+            color: black;
+            background-color: beige;           
+            font-size: small;
+        }
+
+        .hoverstyle
+        {
+            font-weight: bold;
+        }
+       
+        .sublevel1
+        {
+            background-color: black;
+            color:beige;
+          
+        } 
+

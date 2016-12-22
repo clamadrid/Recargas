@@ -4,8 +4,7 @@
     
         <asp:Panel runat="server" GroupingText="Parámetro Actual" Font-Size="Medium" Width="56%" >
             <br />
-            <table>
-
+            <table style="width:70%; margin-left:10px">
                 <tr>
                     <td>
                         <asp:Label ID="lblParametroActual" runat="server" Text="Parámetro: " Font-Size="Small"></asp:Label>

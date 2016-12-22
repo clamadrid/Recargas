@@ -5,44 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-          <style>
-        .level1
-        {
-            color: black;
-            background-color: beige;           
-            font-size:x-large;
-            font-weight: bold;
-        }
-
-        .level2
-        {
-            color: black;
-            font-family: Arial;
-            font-size: medium;
-            background-color: beige;
-        }
-
-        .level3
-        {
-            color: black;
-            background-color: beige;
-            font-family: Arial;
-            font-size: small;
-        }
-
-        .hoverstyle
-        {
-            font-weight: bold;
-        }
-       
-        .sublevel1
-        {
-            background-color: black;
-            color:beige;
-          
-        } 
-
-  </style>
+    <link href="Styles/RecargasStyles.css" type="text/css" rel="stylesheet" id="styles" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -53,6 +16,12 @@
          <asp:ContentPlaceHolder ID="head" runat="server">
                <asp:Menu ID="Menu1" runat="server" Font-Size="Small" Orientation="Horizontal"   staticsubmenuindent="0"   Font-names="Arial, Arial"
   Width="70%">
+   <LevelMenuItemStyles>
+    <asp:MenuItemStyle CssClass="level1"/>
+    <asp:MenuItemStyle CssClass="level2"/>    
+  </LevelMenuItemStyles>
+  
+  <StaticHoverStyle CssClass="hoverstyle"/>
             <Items>
                 <asp:MenuItem Text="Parmetrización" >
                     <asp:MenuItem Text="Consultar valor actual" NavigateUrl="~/Parametros.aspx"> </asp:MenuItem>

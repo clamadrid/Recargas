@@ -113,6 +113,7 @@
     <Content Include="MasterRecargas.Master" />
     <Content Include="ParametroNuevo.aspx" />
     <Content Include="SaldoActual.aspx" />
+    <Content Include="Styles\RecargasStyles.css" />
     <Content Include="WebForm1.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

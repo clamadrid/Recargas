@@ -3,7 +3,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Body" runat="server">
     <asp:Panel runat="server" GroupingText="Crear Parámetro" Width="56%" >
             <br />
-            <table>
+            <table style="width:70%; margin-left:10px">
                 <tr>
                     <td>
                         <asp:Label runat="server" ID="lblCosto" Text="Costo X Segundo: " Font-Size="Small"></asp:Label>
