@@ -1,0 +1,115 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
+-- --------------------------------------------------
+-- Date Created: 12/21/2016 21:50:37
+-- Generated from EDMX file: D:\Recargas\Recargas\BitGray.Recargas\BitGray.WebAPIRecargas\Services\BDRecargas.edmx
+-- --------------------------------------------------
+
+SET QUOTED_IDENTIFIER OFF;
+GO
+USE [BDRecargas];
+GO
+IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
+GO
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- --------------------------------------------------
+
+IF OBJECT_ID(N'[dbo].[Consumo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Consumo];
+GO
+IF OBJECT_ID(N'[dbo].[Parametros]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Parametros];
+GO
+IF OBJECT_ID(N'[dbo].[Recargas]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Recargas];
+GO
+IF OBJECT_ID(N'[dbo].[Saldos]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Saldos];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'Consumoes'
+CREATE TABLE [dbo].[Consumoes] (
+    [idConsumo] bigint IDENTITY(1,1) NOT NULL,
+    [idParametro] bigint  NOT NULL,
+    [celular] nvarchar(20)  NOT NULL,
+    [consumo1] int  NOT NULL,
+    [fechaConsumo] datetime  NOT NULL
+);
+GO
+
+-- Creating table 'Parametros'
+CREATE TABLE [dbo].[Parametros] (
+    [idParametro] bigint IDENTITY(1,1) NOT NULL,
+    [valor] int  NOT NULL,
+    [fechaParametro] datetime  NOT NULL,
+    [esActual] bit  NOT NULL
+);
+GO
+
+-- Creating table 'Recargas'
+CREATE TABLE [dbo].[Recargas] (
+    [idRecargas] bigint IDENTITY(1,1) NOT NULL,
+    [idParametros] bigint  NOT NULL,
+    [celular] nvarchar(20)  NOT NULL,
+    [valor] int  NOT NULL,
+    [fechaVigencia] datetime  NOT NULL,
+    [fechaRecarga] datetime  NOT NULL
+);
+GO
+
+-- Creating table 'Saldos'
+CREATE TABLE [dbo].[Saldos] (
+    [idSaldo] bigint IDENTITY(1,1) NOT NULL,
+    [celular] nvarchar(20)  NOT NULL,
+    [saldoPesos] int  NOT NULL,
+    [saldoSegundos] int  NOT NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [idConsumo] in table 'Consumoes'
+ALTER TABLE [dbo].[Consumoes]
+ADD CONSTRAINT [PK_Consumoes]
+    PRIMARY KEY CLUSTERED ([idConsumo] ASC);
+GO
+
+-- Creating primary key on [idParametro] in table 'Parametros'
+ALTER TABLE [dbo].[Parametros]
+ADD CONSTRAINT [PK_Parametros]
+    PRIMARY KEY CLUSTERED ([idParametro] ASC);
+GO
+
+-- Creating primary key on [idRecargas] in table 'Recargas'
+ALTER TABLE [dbo].[Recargas]
+ADD CONSTRAINT [PK_Recargas]
+    PRIMARY KEY CLUSTERED ([idRecargas] ASC);
+GO
+
+-- Creating primary key on [idSaldo] in table 'Saldos'
+ALTER TABLE [dbo].[Saldos]
+ADD CONSTRAINT [PK_Saldos]
+    PRIMARY KEY CLUSTERED ([idSaldo] ASC);
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------
