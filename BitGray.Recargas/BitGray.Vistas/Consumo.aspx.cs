@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -18,7 +19,7 @@ namespace BitGray.Vistas
         protected void btnSave_Click(object sender, EventArgs e)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:36839/");
+            client.BaseAddress = new Uri(ConfigurationManager.AppSettings["WebApi"]);
 
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
@@ -41,7 +42,7 @@ namespace BitGray.Vistas
         private bool ValidarConsumos()
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:36839/");
+            client.BaseAddress = new Uri(ConfigurationManager.AppSettings["WebApi"]);
 
             string celular = this.txtCelular.Text.Trim();
             

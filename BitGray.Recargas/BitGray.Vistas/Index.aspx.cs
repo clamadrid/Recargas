@@ -6,6 +6,7 @@ using System.Net.Http.Headers;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
 
 namespace BitGray.Vistas
 {
@@ -19,7 +20,7 @@ namespace BitGray.Vistas
         private void ObtenerParametroActual()
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:36839/");
+            client.BaseAddress = new Uri(ConfigurationManager.AppSettings["WebApi"]);
 
             HttpResponseMessage response = client.GetAsync("api/Parametros").Result;
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
